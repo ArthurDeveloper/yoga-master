@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Topbar from './components/Topbar/index.jsx';
-import Classes from './components/Classes/index.jsx';
-import AboutUs from './components/AboutUs/index.jsx';
+import Topbar from './components/Topbar';
+import Classes from './components/Classes';
+import AboutUs from './components/AboutUs';
 import './App.css';
 
 export default function App() {
