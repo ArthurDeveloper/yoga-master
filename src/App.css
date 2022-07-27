@@ -1,0 +1,47 @@
+html, body {
+	font-family: 'Inter';
+	font-size: 100%;
+	overflow-x: hidden;
+}
+
+.title-wrapper {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	padding-top: 12rem;
+	padding-left: 3.62rem;
+	width: 100%;
+	height: 100%;
+}
+
+.main-image {
+	/* position: absolute; */
+	background-image: url('/yoga_woman.jpg');
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+	opacity: 50%;
+	z-index: 1;
+	width: 100vw;
+	height: 90vh;
+	transition-duration: 600ms;
+	transition-property: all;
+}
+
+.main-image:hover {
+	opacity: 100%;
+	background-size: 120%;
+}
+
+.title {
+	color: #000;
+  	font-size: 5rem;
+  	font-weight: 600;
+}
+
+.subtitle {
+	color: #000;
+  	font-size: 1.5rem;
+  	font-weight: 600;
+	margin-top: 3rem;
+}
