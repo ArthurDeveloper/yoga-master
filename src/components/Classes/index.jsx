@@ -82,7 +82,7 @@ export default function Classes() {
                             Yoga can improve your baby's health too!
                         </p>
                     </div>
-                    <button className="see-more-classes-btn">See More</button>
+                    <a className="see-more-classes-btn">See More</a>
                 </div>
             </section>
         </FadeInAnimation>
