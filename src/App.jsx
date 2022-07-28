@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Topbar from './components/Topbar';
 import Classes from './components/Classes';
 import AboutUs from './components/AboutUs';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
 export default function App() {
@@ -18,6 +20,8 @@ export default function App() {
 
 				<AboutUs />
 				<Classes />
+				<Contact />
+				<Footer />
 			</main>
 		</div>
 	)

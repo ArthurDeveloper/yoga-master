@@ -6,7 +6,7 @@ export default function AboutUs() {
         <FadeInAnimation duration={1000} direction="up" offset={40}>
             <section className="sections-wrapper">
                 <section>
-                    <h1 className="section-title">Who we <span className="strong-font">are</span></h1>
+                    <h3 className="section-title">Who we <span className="strong-font">are</span></h3>
                     <p className="section-text">
                         We're a group of people who love yoga and share their knowledge.
                         We want to help you to get started with yoga and to get better in it
@@ -15,7 +15,7 @@ export default function AboutUs() {
                 </section>
 
                 <section>
-                    <h1 className="section-title">What we <span className="strong-font">do</span></h1>
+                    <h3 className="section-title">What we <span className="strong-font">do</span></h3>
                     <p className="section-text">
                         We share all our knowledge and experience in the field of yoga through
                         online classes.

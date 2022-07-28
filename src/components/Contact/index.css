@@ -1,0 +1,17 @@
+.main-text {
+    text-align: center;
+}
+
+.contact-icons-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    place-items: center;
+    width: 30%;
+    margin-top: 2rem;
+}

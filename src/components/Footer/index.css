@@ -1,0 +1,10 @@
+footer {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+address {
+    margin-top: 1rem;
+}

@@ -9,8 +9,10 @@ export default function FadeInAnimation({ duration, direction, offset, children 
 
     useEffect(() => {
         document.addEventListener('scroll', () => {
-            if (!animationRunning) {
-                setAnimationRunning(isInViewport({ element: element.current, offset: offset }));
+            if (isInViewport({ element: element.current, offset: offset }) 
+                && !animationRunning
+                && !animationRan) {
+                setAnimationRunning(true);
                 setTimeout(() => {
                     setAnimationRan(true);
                 }, duration);

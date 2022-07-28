@@ -3,11 +3,11 @@ import './index.css';
 
 export default function Classes() {
     return (
-        <FadeInAnimation duration={1500} direction="left" offset={40}>
+        <FadeInAnimation duration={1500} direction="left" offset={10}>
             <section>
-                <h1 className="main-text">
+                <h2 className="main-text">
                     Watch the <span className="strong-font">BEST</span> classes for you
-                </h1>
+                </h2>
                 <div className="classes">
                     {/* TODO: Download the images and update sources */ }
                     <div className="class-card">
