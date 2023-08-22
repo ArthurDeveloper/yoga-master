@@ -9,15 +9,17 @@ import './App.css';
 export default function App() {
 	return (
 		<div>
-			<Topbar />
+			<Topbar />	
 			
-			<main>
-				<header className="title-wrapper">
+			<header className="main-header">
+				<div className="title-wrapper">
 					<h1 className="title">Free yoga classes</h1>
-					<h3 className="subtitle">All you need is an internet connection and motivation</h3>
-				</header>
-				<div className="main-image" />
+					<h2 className="subtitle">All you need is an internet connection and motivation</h2>
+				</div>
+				<img className="main-image" src="/yoga-poses.png" />
+			</header>
 
+			<main>
 				<AboutUs />
 				<Classes />
 				<Contact />

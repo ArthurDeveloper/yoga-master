@@ -5,27 +5,13 @@ html, body {
 	scroll-behavior: smooth;
 }
 
-header {
-	position: absolute;
-	top: 3rem;
-	left: 5%;
-	z-index: 1;
-	padding-top: 12rem;
-	padding-left: 3.62rem;
-}
-
-.main-image {
-	/* position: absolute; */
-	background-image: url('/yoga_woman.jpg');
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	background-size: 100%;
-	opacity: 50%;
-	z-index: 1;
-	width: 100vw;
-	height: 90vh;
-	transition-duration: 600ms;
-	transition-property: all;
+.main-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+	gap: 3.62rem;
 }
 
 .title {
@@ -39,6 +25,16 @@ header {
   	font-size: 1.5rem;
   	font-weight: 600;
 	margin-top: 3rem;
+}
+
+.main-image {
+	object-fit: cover;
+	transition-duration: 200ms;
+	transition-property: all;
+}
+
+.main-image:hover {
+	transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
