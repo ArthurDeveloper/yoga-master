@@ -21,7 +21,7 @@ function ClassCard({ title, description, image, alt }) {
 export default function Classes() {
     return (
         <FadeInAnimation duration={1500} direction="left" offset={10}>
-            <section>
+            <section id="classes">
                 <h2 className="main-text">
                     Watch the <span className="strong-font">BEST</span> classes for you
                 </h2>

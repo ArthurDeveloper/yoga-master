@@ -4,7 +4,7 @@ import './index.css';
 export default function AboutUs() {
     return (
         <FadeInAnimation duration={1000} direction="up" offset={40}>
-            <div className="sections-wrapper">
+            <div className="sections-wrapper" id="about-us">
                 <section className="section">
                     <h3 className="section-title">Who we <span className="strong-font">are</span></h3>
                     <p className="section-text">

@@ -5,7 +5,7 @@ import './index.css';
 export default function Contact() {
     return (
         <FadeInAnimation duration={1000} direction="up" offset={40}>
-            <section>
+            <section id="contact">
                 <h2 className="main-text">
                     <span className="strong-font">
                         Contact us
