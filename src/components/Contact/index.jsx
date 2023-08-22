@@ -12,7 +12,6 @@ export default function Contact() {
                     </span>
                 </h2>
 
-                {/* TODO: replace urls with downloaded images */}
                 <div className="contact-icons-wrapper">
                     <div className="contact-icons">
                         <div>
