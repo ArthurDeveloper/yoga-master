@@ -30,42 +30,42 @@ export default function Classes() {
 					<ClassCard
 						title="Basic poses"
 						description="Simple poses that will help you get started"
-						image="https://images.pexels.com/photos/4056535/pexels-photo-4056535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+						image="basic.jpeg" 
 						alt="Basic poses"
 					/>
 					
 					<ClassCard
 						title="Poses for your posture"
 						description="Improve your posture with this class"
-						image="https://images.pexels.com/photos/3758056/pexels-photo-3758056.jpeg?auto=compress&cs=tinysrgb&w=600"
+						image="children.jpeg"
 						alt="Poses for posture"
 					/>
 
 					<ClassCard
 						title="For children"
 						description="Make your children learn yoga as well!"
-						image="https://images.pexels.com/photos/3094230/pexels-photo-3094230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+						image="duos.jpeg"
 						alt="For children"
 					/>
 
 					<ClassCard
 						title="At the morning"
 						description="Yoga should be done at the morning too!"
-						image="https://images.pexels.com/photos/3756520/pexels-photo-3756520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+						image="morning.jpeg"
 						alt="Yoga should be done at the morning too!"
 					/>
 
 					<ClassCard 
 						title="Duos"
 						description="Yoga is way more fun when you do it in pairs!"
-						image="https://images.pexels.com/photos/4327162/pexels-photo-4327162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+						image="posture.jpeg"
 						alt="Duos"
 					/>
 
 					<ClassCard 
 						title="For pregnants"
 						description="Yoga can improve your baby's health too!"
-						image="https://images.pexels.com/photos/7055668/pexels-photo-7055668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+						image="pregnants.jpeg"
 						alt="For pregnants"
 
 					/>
