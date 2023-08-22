@@ -8,10 +8,11 @@
 }
 
 .contact-icons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
     gap: 0.5rem;
-    place-items: center;
-    width: 30%;
+    width: 50%;
     margin-top: 2rem;
 }
