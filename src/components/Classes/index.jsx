@@ -26,7 +26,6 @@ export default function Classes() {
                     Watch the <span className="strong-font">BEST</span> classes for you
                 </h2>
                 <div className="classes">
-                    {/* TODO: Download the images and update sources */ }
 					<ClassCard
 						title="Basic poses"
 						description="Simple poses that will help you get started"
