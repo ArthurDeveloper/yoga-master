@@ -12,11 +12,11 @@ export default function App() {
 			<Topbar />
 			
 			<main>
-				<div className="main-image" />
 				<header className="title-wrapper">
 					<h1 className="title">Free yoga classes</h1>
 					<h3 className="subtitle">All you need is internet and motivation</h3>
 				</header>
+				<div className="main-image" />
 
 				<AboutUs />
 				<Classes />
