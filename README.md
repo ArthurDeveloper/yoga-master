@@ -1,6 +1,6 @@
 # Yoga master
 
-A simple mockup-ish yoga website made with ReactJS.
+A simple mockup-ish yoga website made with ReactJS.\
 **WARNING**: It was made just for learning purposes, therefore there is no functionality or actual classes.
 
 ## Live
@@ -25,7 +25,7 @@ or
 yarn dev
 ```
 
-To open a local development server.
+To open a local development server.\
 
 ![Yoga master on a large screen](screenshot-lg.png)
 ![Yoga master on a medium-sized screen](screenshot-md.png)
