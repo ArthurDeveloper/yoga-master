@@ -31,20 +31,20 @@ export default function Classes() {
 						title="Basic poses"
 						description="Simple poses that will help you get started"
 						image="basic.jpeg" 
-						alt="Basic poses"
+						alt="Yoga poses"
 					/>
 					
 					<ClassCard
 						title="Poses for your posture"
 						description="Improve your posture with this class"
-						image="children.jpeg"
+						image="posture.jpeg"
 						alt="Poses for posture"
 					/>
 
 					<ClassCard
 						title="For children"
 						description="Make your children learn yoga as well!"
-						image="duos.jpeg"
+						image="children.jpeg"
 						alt="For children"
 					/>
 
@@ -58,7 +58,7 @@ export default function Classes() {
 					<ClassCard 
 						title="Duos"
 						description="Yoga is way more fun when you do it in pairs!"
-						image="posture.jpeg"
+						image="duos.jpeg"
 						alt="Duos"
 					/>
 
