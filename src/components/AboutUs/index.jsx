@@ -4,8 +4,8 @@ import './index.css';
 export default function AboutUs() {
     return (
         <FadeInAnimation duration={1000} direction="up" offset={40}>
-            <section className="sections-wrapper">
-                <section>
+            <div className="sections-wrapper">
+                <section className="section">
                     <h3 className="section-title">Who we <span className="strong-font">are</span></h3>
                     <p className="section-text">
                         We're a group of people who love yoga and share their knowledge.
@@ -14,7 +14,7 @@ export default function AboutUs() {
                     </p>
                 </section>
 
-                <section>
+                <section className="section">
                     <h3 className="section-title">What we <span className="strong-font">do</span></h3>
                     <p className="section-text">
                         We share all our knowledge and experience in the field of yoga through
@@ -24,7 +24,7 @@ export default function AboutUs() {
                         be an awesome hobby.
                     </p>
                 </section>
-            </section>
+            </div>
         </FadeInAnimation>
     );
 }
