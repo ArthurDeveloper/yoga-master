@@ -25,6 +25,7 @@ export default function Classes() {
                 <h2 className="main-text">
                     Watch the <span className="strong-font">BEST</span> classes for you
                 </h2>
+
                 <div className="classes">
 					<ClassCard
 						title="Basic poses"
@@ -68,10 +69,12 @@ export default function Classes() {
 						alt="For pregnants"
 
 					/>
-
-                    <a className="see-more-classes-btn">See More</a>
                 </div>
-            </section>
+
+				<div className="see-more-classes-btn-container">
+					<a className="see-more-classes-btn">See More</a>
+				</div>
+			</section>
         </FadeInAnimation>
     )
 }
