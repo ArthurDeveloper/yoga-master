@@ -50,21 +50,21 @@ export default function Classes() {
 
 					<ClassCard
 						title="At the morning"
-						description="Yoga should be done at the morning too!"
+						description="Yoga should be done in the morning too!"
 						image="morning.jpeg"
-						alt="Yoga should be done at the morning too!"
+						alt="Yoga in the morning"
 					/>
 
 					<ClassCard 
 						title="Duos"
-						description="Yoga is way more fun when you do it in pairs!"
+						description="Yoga is much more fun when you do it together!"
 						image="duos.jpeg"
 						alt="Duos"
 					/>
 
 					<ClassCard 
 						title="For pregnants"
-						description="Yoga can improve your baby's health too!"
+						description="Yoga improves your baby's health too!"
 						image="pregnants.jpeg"
 						alt="For pregnants"
 
