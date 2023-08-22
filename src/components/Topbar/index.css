@@ -1,4 +1,6 @@
 .topbar {
+	display: flex;
+	align-items: center;
     background-color: #09C956;
     padding: 1em;
 }
@@ -8,4 +10,20 @@
     font-family: 'Permanent Marker';
     font-size: 2em;
     font-weight: 400;
+}
+
+.menu {
+	margin-left: auto;
+}
+
+.menu-item {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 2rem;
+}
+
+@media(max-width: 768px) {
+	.menu {
+		display: none;
+	}
 }

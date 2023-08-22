@@ -1,0 +1,65 @@
+.mobile-menu-container {
+	display: none;
+	margin-left: auto;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100vw;
+	height: 100vh;
+	transition: background-color 100ms ease-in-out;	
+}
+
+.overlay-open {
+	background: #5557;
+	z-index: 2;
+}
+
+.burger-button-container {
+	width: 32px;
+	height: 36px;
+	margin-left: auto;
+}
+
+.burger-button:hover {
+	cursor: pointer;
+}
+
+.mobile-menu {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	z-index: 3;
+	top: 0;
+	left: 100%;
+	background: #fff;
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+	padding-top: 2rem;
+	padding-right: 2rem;
+	transition: left 200ms ease-in-out;
+}
+
+.mobile-menu-open {
+	left: 0;
+}
+
+.mobile-menu-item {
+	color: #000;
+	text-decoration: none;
+	padding-left: 1.5rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #555;
+	width: calc(100% + 2rem);
+}
+
+@media (max-width: 768px) {
+	.mobile-menu-container {
+		display: block;
+	}
+}
